@@ -68,56 +68,49 @@ const Contact = () => {
           Contact <span className="text-cyan-600">Me</span>
         </motion.h3>
 
-        <div className="mt-6 flex md:flex-row flex-col gap-6 max-w-5xl  md:p-6 p-2 rounded-lg mx-auto">
+        <div className="mt-6 flex flex-col md:flex-row gap-6 max-w-5xl md:p-6 p-2 rounded-lg mx-auto">
           <motion.form
             ref={form}
             onSubmit={sendEmail}
-            className="flex flex-col flex-1 gap-5 "
+            className="flex flex-col flex-1 gap-5"
             variants={fadeIn("up", 0.1)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
           >
-            <div
-              className="flex  gap-5"
-              variants={fadeIn("up", 0.1)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-            >
-              <div className="text-4xl mt-4 text-sky-600 ">
+            <div className="flex flex-col sm:flex-row gap-5">
+              <div className="hidden md:block text-4xl mt-4 text-sky-600">
                 <ion-icon name="person-circle-outline"></ion-icon>
               </div>
-
               <input
                 type="text"
                 name="user_name"
                 placeholder="Your Name"
-                className="flex-1 border bg-transparent border-sky-600"
+                className="flex-1 border bg-transparent border-sky-600 p-2 rounded"
               />
             </div>
 
-            <div className="flex  gap-5">
-              <div className="text-4xl mt-4 text-sky-600 ">
+            <div className="flex flex-col sm:flex-row gap-5">
+              <div className="hidden md:block text-4xl mt-4 text-sky-600">
                 <ion-icon name="mail-outline"></ion-icon>
               </div>
               <input
                 type="email"
                 name="user_email"
                 placeholder="Your Email Address"
-                className="flex-1 border bg-transparent border-sky-600"
+                className="flex-1 border bg-transparent border-sky-600 p-2 rounded"
               />
             </div>
 
-            <div className="flex gap-5 ">
-              <div className="text-4xl mt-8 text-sky-600 ">
+            <div className="flex flex-col sm:flex-row gap-5">
+              <div className="hidden md:block text-4xl mt-8 text-sky-600">
                 <ion-icon name="chatbox-ellipses-outline"></ion-icon>
               </div>
               <textarea
                 name="message"
                 placeholder="Message"
                 rows={10}
-                className="flex-1 border bg-transparent border-sky-600"
+                className="flex-1 border bg-transparent border-sky-600 p-2 rounded"
               />
             </div>
             <motion.button
