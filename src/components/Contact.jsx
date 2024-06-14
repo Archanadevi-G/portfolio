@@ -69,12 +69,16 @@ const Contact = () => {
         </motion.h3>
 
         <div className="mt-6 flex md:flex-row flex-col gap-6 max-w-5xl  md:p-6 p-2 rounded-lg mx-auto">
-          <form
+          <motion.form
             ref={form}
             onSubmit={sendEmail}
             className="flex flex-col flex-1 gap-5 "
+            variants={fadeIn("up", 0.1)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
           >
-            <motion.div
+            <div
               className="flex  gap-5"
               variants={fadeIn("up", 0.1)}
               initial="hidden"
@@ -91,15 +95,9 @@ const Contact = () => {
                 placeholder="Your Name"
                 className="flex-1 border bg-transparent border-sky-600"
               />
-            </motion.div>
+            </div>
 
-            <motion.div
-              className="flex  gap-5"
-              variants={fadeIn("up", 0.1)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-            >
+            <div className="flex  gap-5">
               <div className="text-4xl mt-4 text-sky-600 ">
                 <ion-icon name="mail-outline"></ion-icon>
               </div>
@@ -109,15 +107,9 @@ const Contact = () => {
                 placeholder="Your Email Address"
                 className="flex-1 border bg-transparent border-sky-600"
               />
-            </motion.div>
+            </div>
 
-            <motion.div
-              className="flex gap-5 "
-              variants={fadeIn("up", 0.1)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-            >
+            <div className="flex gap-5 ">
               <div className="text-4xl mt-8 text-sky-600 ">
                 <ion-icon name="chatbox-ellipses-outline"></ion-icon>
               </div>
@@ -127,7 +119,7 @@ const Contact = () => {
                 rows={10}
                 className="flex-1 border bg-transparent border-sky-600"
               />
-            </motion.div>
+            </div>
             <motion.button
               type="submit"
               className="bg-sky-600 font-semibold text-white md:mx-auto mx-auto rounded-full py-3 px-6 flex items-center gap-2 w-fit hover:bg-white hover:text-cyan-600 focus:bg-white"
@@ -138,7 +130,7 @@ const Contact = () => {
             >
               Send Message
             </motion.button>
-          </form>
+          </motion.form>
 
           <div className="flex flex-col flex-col-sm gap-7 mt-20">
             {contact_info.map((contact, i) => (
