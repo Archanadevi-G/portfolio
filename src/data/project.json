@@ -1,0 +1,30 @@
+[
+  {
+    "img": "project/weather.png",
+    "name": "Weather App",
+    "techStack": ["React JS", "Tailwind CSS", "API"],
+    "github_link": "https://github.com/Archanadevi-G/WeatherApp.git",
+    "live_link": "https://weather-alerts.netlify.app"
+  },
+  {
+    "img": "project/task.png",
+    "name": "Task Manager",
+    "techStack": ["React JS", "Tailwind CSS"],
+    "github_link": "https://github.com/Archanadevi-G/TaskManager.git",
+    "live_link": "https://tasklistmanager.netlify.app/"
+  },
+  {
+    "img": "project/spotify.png",
+    "name": "Spotify Clone",
+    "  techStack": ["React JS", "Tailwind CSS"],
+    "github_link": "https://github.com/Archanadevi-G/Spotify-clone.git",
+    " live_link": "https://music-palyer-clone.netlify.app/"
+  },
+  {
+    "img": "project/ecom.png",
+    "name": "E-Buy",
+    "techStack": ["React JS", "Tailwind CSS"],
+    "github_link": "https://github.com/Archanadevi-G/E-Com.git",
+    "live_link": "https://fashionglow.netlify.app/"
+  }
+]

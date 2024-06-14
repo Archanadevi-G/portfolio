@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Frontend",
+    "skills": [
+      {
+        "title": "HTML",
+        "imageSrc": "skills/html.png"
+      },
+      {
+        "title": "CSS",
+        "imageSrc": "skills/css.png"
+      },
+      {
+        "title": "JavaScript",
+        "imageSrc": "skills/js.png"
+      },
+      {
+        "title": "React",
+        "imageSrc": "skills/react.png"
+      },
+      {
+        "title": "Redux",
+        "imageSrc": "skills/redux.png"
+      },
+      {
+        "title": "tailwind",
+        "imageSrc": "skills/tailwindcss.png"
+      }
+    ]
+  },
+
+  {
+    "title": "Database",
+    "skills": [
+      {
+        "title": "MySql",
+        "imageSrc": "skills/mysql.png"
+      },
+      {
+        "title": "MongoDB",
+        "imageSrc": "skills/mongodb.png"
+      }
+    ]
+  },
+
+  {
+    "title": "Others",
+    "skills": [
+      {
+        "title": "C",
+        "imageSrc": "skills/c.png"
+      },
+      {
+        "title": "C++",
+        "imageSrc": "skills/c++.png"
+      },
+      {
+        "title": "Java",
+        "imageSrc": "skills/java.png"
+      }
+    ]
+  },
+
+  {
+    "title": "Dev Tools",
+    "skills": [
+      {
+        "title": "Git",
+        "imageSrc": "skills/git.png"
+      },
+      {
+        "title": "Github",
+        "imageSrc": "skills/github.png"
+      },
+      {
+        "title": "Postman",
+        "imageSrc": "skills/postman.png"
+      },
+      {
+        "title": "Netlify",
+        "imageSrc": "skills/netlify.png"
+      },
+      {
+        "title": "VS Code",
+        "imageSrc": "skills/vscode.png"
+      },
+      {
+        "title": "Eclipse",
+        "imageSrc": "skills/eclipse.png"
+      }
+    ]
+  }
+]
