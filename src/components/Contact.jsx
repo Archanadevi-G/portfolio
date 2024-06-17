@@ -82,7 +82,11 @@ const Contact = () => {
               <div className="hidden md:block text-4xl mt-4 text-sky-600">
                 <ion-icon name="person-circle-outline"></ion-icon>
               </div>
-              <input
+              <motion.input
+                variants={fadeIn("down", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
                 type="text"
                 name="user_name"
                 placeholder="Your Name"
@@ -94,7 +98,11 @@ const Contact = () => {
               <div className="hidden md:block text-4xl mt-4 text-sky-600">
                 <ion-icon name="mail-outline"></ion-icon>
               </div>
-              <input
+              <motion.input
+                variants={fadeIn("down", 0.3)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
                 type="email"
                 name="user_email"
                 placeholder="Your Email Address"
@@ -106,7 +114,11 @@ const Contact = () => {
               <div className="hidden md:block text-4xl mt-8 text-sky-600">
                 <ion-icon name="chatbox-ellipses-outline"></ion-icon>
               </div>
-              <textarea
+              <motion.textarea
+                variants={fadeIn("down", 0.4)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
                 name="message"
                 placeholder="Message"
                 rows={10}
