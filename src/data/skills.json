@@ -23,8 +23,12 @@
         "imageSrc": "skills/redux.png"
       },
       {
-        "title": "tailwind",
+        "title": "Tailwind",
         "imageSrc": "skills/tailwindcss.png"
+      },
+      {
+        "title": "NodeJs",
+        "imageSrc": "skills/nodejs.png"
       }
     ]
   },
