@@ -45,7 +45,7 @@ const About = () => {
                 viewport={{ once: false, amount: 0.7 }}
               >
                 <a
-                  href="https://drive.google.com/file/d/1pVNkiC6u9RfoVrCu9s46ilkpkhu7GFxF/view"
+                  href="https://drive.google.com/file/d/1J-l0YUHEuTddTG3YglQlM9zW9036axfG/view"
                   className="btn-primary hover:text-cyan-600 hover:bg-white"
                 >
                   View Resume
