@@ -23,19 +23,19 @@
         "imageSrc": "skills/redux.png"
       },
       {
-        "title": "Tailwind",
+        "title": "Tailwind CSS",
         "imageSrc": "skills/tailwindcss.png"
-      },
-      {
-        "title": "NodeJs",
-        "imageSrc": "skills/nodejs.png"
       }
     ]
   },
 
   {
-    "title": "Database",
+    "title": "Backend",
     "skills": [
+      {
+        "title": "NodeJs",
+        "imageSrc": "skills/nodejs.png"
+      },
       {
         "title": "MySql",
         "imageSrc": "skills/mysql.png"
