@@ -1,7 +1,14 @@
 [
   {
+    "img": "project/memoit.png",
+    "name": "MemoIt - Notes App",
+    "techStack": ["React JS", "Tailwind CSS"],
+    "github_link": "https://github.com/Archanadevi-G/memoit",
+    "live_link": "https://memoit.vercel.app/"
+  },
+  {
     "img": "project/weather.png",
-    "name": "Weather App",
+    "name": "Weather Alerts",
     "techStack": ["React JS", "Tailwind CSS", "API"],
     "github_link": "https://github.com/Archanadevi-G/WeatherApp.git",
     "live_link": "https://weather-alerts.netlify.app"
