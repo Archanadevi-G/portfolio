@@ -25,14 +25,19 @@ const About = () => {
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
               >
-                I'm a Web Developer with a strong foundation in HTML, CSS,
-                JavaScript, Tailwind CSS, and ReactJS. I'm passionate about
-                using these skills to develop innovative web applications that
-                are user-friendly. I'm always eager to learn more about web
-                development and new technologies. I enjoy the challenge of
-                solving real-world problems. Currently, I'm seeking
-                opportunities to join a team that values innovation and shares
-                my enthusiasm for technology.
+                I'm a dedicated Full Stack Developer with a strong focus on
+                building modern, responsive, and high-performing web
+                applications. With expertise in both frontend and backend
+                technologies, I aim to create seamless, user-friendly
+                experiences that solve real-world challenges. I enjoy working
+                with the latest web technologies, continuously learning, and
+                refining my skills to stay ahead in the ever-evolving tech
+                landscape. <br />
+                Beyond coding, I thrive in collaborative environments where
+                innovation and problem-solving drive meaningful projects. I'm
+                currently seeking opportunities to contribute to a dynamic team
+                that values creativity, efficiency, and growth in the field of
+                web development.
               </motion.p>
 
               <br />
@@ -45,7 +50,7 @@ const About = () => {
                 viewport={{ once: false, amount: 0.7 }}
               >
                 <a
-                  href="https://drive.google.com/file/d/1J-l0YUHEuTddTG3YglQlM9zW9036axfG/view"
+                  href="https://drive.google.com/file/d/1VGOnU_vE9nhiyt2NISKGNsetC-WW_7-A/view"
                   className="btn-primary hover:text-cyan-600 hover:bg-white"
                 >
                   View Resume

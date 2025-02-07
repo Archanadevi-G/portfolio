@@ -1,8 +1,37 @@
 [
   {
+    "img": "project/E-Buy.png",
+    "name": "EasyBuy - Ecommerce App",
+    "techStack": [
+      "MongoDB",
+      "ExpressJS",
+      "NodeJs",
+      "React JS",
+      "Stripe",
+      "Tailwind CSS"
+    ],
+    "github_link": "https://github.com/Archanadevi-G/E-CommerceApp",
+    "live_link": "https://easybuy-eqs0.onrender.com/"
+  },
+  {
+    "img": "project/chat.png",
+    "name": "Talkify Chat App",
+    "techStack": [
+      "MongoDB",
+      "ExpressJS",
+      "NodeJs",
+      "React JS",
+      "Socket.io",
+      "Tailwind CSS"
+    ],
+    "github_link": "https://github.com/Archanadevi-G/Chat-App",
+    "live_link": "https://chat-app-8npr.onrender.com/"
+  },
+
+  {
     "img": "project/memoit.png",
     "name": "MemoIt - Notes App",
-    "techStack": ["React JS", "Tailwind CSS"],
+    "techStack": ["MongoDB", "ExpressJS", "NodeJs", "React JS", "Tailwind CSS"],
     "github_link": "https://github.com/Archanadevi-G/memoit",
     "live_link": "https://memoit.vercel.app/"
   },
